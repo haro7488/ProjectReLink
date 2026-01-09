@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: NewSkill
+  m_EditorClassIdentifier: Assembly-CSharp:ProjectReLink.Core.Skill:SkillData
+  SkillID: 
+  DisplayName: 
+  Action:
+    rid: 1845511794760351755
+  Effects:
+  - rid: 1845511794760351753
+  - rid: 1845511794760351758
+  references:
+    version: 2
+    RefIds:
+    - rid: 1845511794760351753
+      type: {class: DamageEffect, ns: ProjectReLink.Core.Skill, asm: Assembly-CSharp}
+      data:
+        Multiplier: 0
+        DamageType: 
+    - rid: 1845511794760351755
+      type: {class: ProjectileAction, ns: ProjectReLink.Core.Skill, asm: Assembly-CSharp}
+      data:
+        PrefabID: 
+        Speed: 0
+    - rid: 1845511794760351758
+      type: {class: DamageEffect, ns: ProjectReLink.Core.Skill, asm: Assembly-CSharp}
+      data:
+        Multiplier: 0
+        DamageType: 
